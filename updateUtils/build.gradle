@@ -4,11 +4,11 @@ plugins {
 
 android {
     namespace 'com.zhou.updateutils'
-    compileSdk 32
+    compileSdk 29
 
     defaultConfig {
-        minSdk 26
-        targetSdk 32
+        minSdk 19
+        targetSdk 29
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
